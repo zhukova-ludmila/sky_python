@@ -1,15 +1,15 @@
 class Mailing:
-    def __init__(self, to_adress, from_adress, cost, track):
-        self.to_adress = to_adress
-        self.from_adress = from_adress
+    def __init__(self, to_address, from_address, cost, track):
+        self.to_address = to_address
+        self.from_address = from_address
         self.cost = cost
         self.track = track
 
     def get_to_adress(self):
-        return self.to_adress
+        return self.to_address
 
     def get_from_adress(self):
-        return self.from_adress
+        return self.from_address
 
     def get_cost(self):
         return self.cost

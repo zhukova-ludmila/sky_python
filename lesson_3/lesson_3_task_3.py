@@ -1,18 +1,18 @@
 from mailing import Mailing
-from adress import Adress
+from address import Address
 
-to_adress = Adress(123456, "Moscow", "Pushkina", 24, 17)
-from_adress = Adress(654321, "Novosibirsk", "Chehova", 36, 3)
+to_address = Address(123456, "Moscow", "Pushkina", 24, 17)
+from_address = Address(654321, "Novosibirsk", "Chehova", 36, 3)
 cost = 1000
 track = 12345678
-mailing = Mailing(to_adress, from_adress, cost, track)
+mailing = Mailing(to_address, from_address, cost, track)
 print(
     "Отправление",
     track,
     "из",
-    from_adress,
+    from_address,
     "в",
-    to_adress,
+    to_address,
     ". Стоимость",
     cost,
     "рублей.",
