@@ -1,6 +1,3 @@
-from adress import Adress
-
-
 class Mailing:
     def __init__(self, to_adress, from_adress, cost, track):
         self.to_adress = to_adress
@@ -9,10 +6,10 @@ class Mailing:
         self.track = track
 
     def get_to_adress(self):
-        return str(Adress)
+        return self.to_adress
 
     def get_from_adress(self):
-        return str(Adress)
+        return self.from_adress
 
     def get_cost(self):
         return self.cost
